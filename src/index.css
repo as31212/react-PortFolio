@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width:900px) {
+    #about h2 , #about p{
+        text-align: center;
+    }
+     ul{
+        justify-content: center !important;
+    }
+    #introduction img{
+        border-radius: 180px;
+    }
+    #img-text{
+        width: 100% !important;
+    }
+    #tech-stack .icons{
+        align-items: center;
+        justify-content: center;
+    }
+    #tech-stack{
+       flex-direction: column;
+       gap: 50px;
+       text-align: center;
+    }
+    #linkedin-github{
+    justify-content: space-around;
+
+    }
+}
